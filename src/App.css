@@ -28,6 +28,50 @@
   color: #61dafb;
 }
 
+.frontPage {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+  text-align: center;
+}
+
+.header {
+  grid-row: 1;
+}
+
+.graphSection {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  grid-row: 2;
+}
+
+.controlPanel {
+  padding: 20px;
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  gap: 20px;
+}
+
+.graphs {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.pokemonData {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+
+.selectPrompt {
+  justify-self: center;
+  align-self: center;
+  font-size: 24px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

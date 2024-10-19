@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.frontPage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.graphSection {
+  display: flex;
+  flex-direction: row;
+}
